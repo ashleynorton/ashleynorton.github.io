@@ -32,6 +32,11 @@
   src: url('/fonts/simplifica.ttf');
 }
 
+html {
+  background: url('/img/bg.jpg');
+  background-size: cover;
+}
+
 body {
   margin: 0;
 }
