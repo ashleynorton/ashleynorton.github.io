@@ -32,13 +32,10 @@
   src: url('/fonts/simplifica.ttf');
 }
 
-html {
-  background: url('/img/bg.jpg');
-  background-size: cover;
-}
-
 body {
   margin: 0;
+  background: url('/img/bg.jpg');
+  background-size: cover;
 }
 
 /* Sidebar */
@@ -55,6 +52,7 @@ body {
   font-size: 55px;
   text-align: center;
   padding-top: 25px;
+  color: #ffffff;
 }
 
 .nav {
@@ -76,6 +74,27 @@ body {
 }
 
 /* Home Page */
+.main {
+
+}
+
+.main h1, h2 {
+  margin: 0;
+  color: #ffffff;
+}
+
+.main h1 {
+  font-family: 'pier';
+  font-size: 100px;
+  text-align: center;
+  padding-top: 200px;
+}
+
+.main h2 {
+  font-family: 'pier';
+  font-size: 48px;
+  text-align: center;
+}
 
 
 
