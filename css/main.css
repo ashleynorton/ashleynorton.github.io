@@ -4,66 +4,59 @@
 }
 
 @font-face {
-  font-family: 'pier';
-  src: url('/fonts/pier-regular.otf');
-}
-
-@font-face {
-  font-family: 'pier';
-  src: url('/fonts/pier-italic.otf');
-  font-style: italic;
-}
-
-@font-face {
-  font-family: 'pier';
-  src: url('/fonts/pier-bold.otf');
-  font-weight: bold;
-}
-
-@font-face {
-  font-family: 'pier';
-  src: url('/fonts/pier-bold-italic.otf');
-  font-weight: bold;
-  font-style: italic;
-}
-
-@font-face {
   font-family: 'simplifica';
   src: url('/fonts/simplifica.ttf');
 }
 
 body {
   margin: 10px;
+  background: #80BD9E;
 }
 
 
 /* Navigation Bar */
 
-.nav {
+header {
   margin: 20px;
 }
 
 .logo {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  opacity: 0.3;
   float: left;
-  font-family: 'voluptate';
-  font-size: 55px;
+} 
+
+.transparent {
+  font-family: 'voluptate', serif;
+  color: #80BD9E;
+  font-size: 32px;
+  margin-top: 26px;
+  margin-left: 10px;
+}
+
+.nav {
+  display: inline;
 }
 
 .nav-bar {
   float: right;
-  font-size: 26px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
   margin: 45px 10px 0 0;
 }
 
 .nav-bar li {
   display: inline-block;
   list-style: none;
-  
+  padding-right: 15px;
 }
 
 .nav-bar li a {
   text-decoration: none;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 
@@ -71,38 +64,39 @@ body {
 /* Home Page */
 
 .main {
+  margin-left: 125px;
+  width: 50%;
   clear: both;
-}
-
-hr {
-  height: 3px;
-  width: 550px;
-  background-color: #000000;
-  border-color: #000000;
-}
-
-.top {
-  margin-top: 200px;
-  margin-bottom: 50px;
-}
-
-.bottom {
-  margin-top: 40px;
-}
-
-.main h1, h2 {
-  margin: 0;
-  text-align: center;
+  color: #FFFFFF;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main h1 {
-  font-size: 100px;  
+  padding-top: 50px;
+  margin-bottom: 0;
+  font-size: 80px;
 }
 
-.main h2 {
-  font-size: 48px;
+.main h3 {
+  font-family: 'simplifica', sans-serif;
+  font-size: 34px;
 }
 
+.main p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
+
+.main a {
+  margin: 0;
+  text-decoration: none;
+  color: #FF420E;
+}
+
+#signature {
+  font-family: 'voluptate', serif;
+  font-size: 40px;
+}
 
 
 /* Footer */
